@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="icon" type="image/x-icon" href="/images/globus.png">
+    <meta name="author" content="Raphael Tack">
+    <meta name="description" content="Free News for everyone">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+</head>
+<body>
+<div class="background">
+    <nav class="tabs">
+        <ul class="navbar" >    
+            <li class="tab" data-panel="news"><a href="#" >Aktuelles</a></li>
+            <li class="tab" data-panel="events"><a href="#" >Veranstaltungen</a></li>
+        </ul>
+    </nav>
+    <main class="panels">
+        <article class="panel active-panel" data-panel="news">
+            <section class="content">
+            <img class="images" src="Images/politik.jfif" alt="Politik"></img>
+                <div class="news">
+                    <time class="time">03.01.2023</time>
+                    <h1 class="heading">Einladung zur Jahrespressekonferenz</h1>
+                    <p class="addition"> Olaf Scholz hält Rede im Bundestag!</p>
+                    <li class="information"><a href="https://www.ksta.de/"> › mehr Informationen</a></li>        
+                </div>
+            </section>
+                    
+            <hr class="horizont">
+
+            <section class="content">
+            <img class="images" src="Images/FC.png" alt="Sport"></img>
+                <div class="news">
+                    <time>03.01.2023</time>
+                    <h1 class="heading">1FC Köln gewinnt ersten Platz</h1>
+                    <p class="addition">1 FC Köln wurde Sieger bei der Bundesliga!</p>
+                    <li class="information"><a href="https://www.ksta.de/"> › mehr Informationen</a></li>
+                </div>
+            </section>
+                    
+            <hr class="horizont">
+
+            <section class="content">
+            <img class="images" src="Images/Schwanstein.jfif" alt="Kultur"></img>
+                <div class="news">
+                    <time>03.01.2023</time>
+                    <h1 class="heading">Schloss Neuschwansteig neu rennoviert</h1>
+                    <p class="addition">Das alte Schloss bekam einen neuen weißen aufstrich.</p>
+                    <li class="information"><a href="https://www.ksta.de/"> › mehr Informationen</a></li>        
+                </div>
+            </section>
+                        
+            <hr class="horizont">
+
+        </article>
+
+        <article class="panel" data-panel="events">
+            <section class="content">
+            <img class="images" src="Images/Karneval.jfif" alt="Karneval"></img>
+                <div class="news">
+                    <time>03.01.2023</time>
+                    <h1 class="heading">Kölner Karneval härter als Gedacht!</h1>
+                    <p class="addition"> 100.000 Menschen feiern in Köln.</p>
+                    <li class="information"><a href="https://www.ksta.de/> › mehr Informationen"></a></li>        
+                </div>
+            </section>
+
+            <hr class="horizont">
+
+            <section class="content">
+            <img class="images" src="Images/Markt.jfif" alt="Markt"></img>
+                <div class="news">
+                    <time>03.01.2023</time>
+                    <h1 class="heading">Kölns größter Markt eröffnet heute!</h1>
+                    <p class="addition">Jeder hat sehensüchtigt drauf gewartet.</p>
+                    <li class="information"><a href="https://www.express.de/"> › mehr Informationen</a></li>        
+                </div>
+            </section>
+
+            <hr class="horizont">
+
+        </article> 
+        
+        <footer class="end">
+            <li class="allArticle"><a href="https://www.tagesschau.de/"> › Alle Artikel in der Übersicht</a></li>
+        </footer>
+        
+    </main>        
+    <script src="index.js"></script>
+</body>
+</html>
